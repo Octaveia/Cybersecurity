@@ -4,9 +4,12 @@ Urbana Champaign cybersecurity and C programming
 # Why C?
 This is an interesting question. It also implies there is some other language that is remotely relevant. There's not.
 
-Everything needed to create the binaries for an operating system is written in C. they would be called binary utilities. Or binutils. just to give you an idea of the importance and complexity of these -- there's only one implementation of binutils that exists. The llvm project in all of its glory does not have a readelf program. 
+Everything needed to create the binaries for an operating system is written in C. they would be called binary utilities. Or binutils. Just to give you an idea of the importance and complexity of these -- there's only one implementation of binutils that exists. The llvm project in all of its glory does not have a readelf program. 
 
-In this way, C begets C. 
+In this way, C begets C and a new operating system can't be generated without it. Let me show you how to conpile a program against a different C run time and statically link in alternate library versions using a single command: 
+
+    Octavia@masterhaxor$ pay ne
+    Octavia@masterhaxor$ error: cannot find
 
 
 # Who is Octavia?
