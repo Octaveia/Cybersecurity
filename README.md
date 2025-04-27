@@ -1,8 +1,15 @@
-# Cybersecurity-
+# Cybersecurity
 Urbana Champaign cybersecurity and C programming 
 
+# Why C?
+This is an interesting question. It also implies there is some other language that is remotely relevant. There's not.
 
-# Who is Octavia?~
+Everything needed to create the binaries for an operating system is written in C. they would be called binary utilities. Or binutils. just to give you an idea of the importance and complexity of these -- there's only one implementation of binutils that exists. The llvm project in all of its glory does not have a readelf program. 
+
+In this way, C begets C. 
+
+
+# Who is Octavia?
 Octavia is a C programmer with extensive experience writing and using API application programming interfaces. She recruited a team of computer scientists from around the world to participate in writing a freestanding hosted C runtime and an arbitrary precision mathematics library. The team (from hereafter referred to as "we", "us", or, "our") designated one of its members to install an instantiation of gitlab's CI/CD continuous integration and deployment. Every function we wrote had a test and a corresponding small data and large data set. Whenever a commit was made to git (git commit) the entire library test infrastructure was executed using a memory tester to inspect for memory leaks. A memory error such as an out of bounds write or read would be detected by the small data set test infrastructure before the large data set was ran allowing us to correct software bugs or flaws without waiting for the large data sets to process.  All kernel activities were monitored and logged so they could be inspected for improper contact switching. Millions of tests were performed automatically. 
 
 We were given usage of unlimited computing resources which were used responsibly and the testing infrastructure was deployed across Intel, ARM, and, Mipsel machines running Linux, openbsd, FreeBSD and netbsd. Where applicable, POSIX and IEEE standards bodies were followed scrupulously in order to ensure maximum portability. 
